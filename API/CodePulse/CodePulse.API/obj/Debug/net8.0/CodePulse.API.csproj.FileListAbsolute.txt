@@ -292,3 +292,4 @@ C:\Users\waltujo\source\repos\Projetos\API\CodePulse\CodePulse.API\obj\Debug\net
 C:\Users\waltujo\source\repos\Projetos\API\CodePulse\CodePulse.API\obj\Debug\net8.0\CodePulse.API.pdb
 C:\Users\waltujo\source\repos\Projetos\API\CodePulse\CodePulse.API\obj\Debug\net8.0\CodePulse.API.genruntimeconfig.cache
 C:\Users\waltujo\source\repos\Projetos\API\CodePulse\CodePulse.API\obj\Debug\net8.0\ref\CodePulse.API.dll
+C:\Users\waltujo\source\repos\Projetos\API\CodePulse\CodePulse.API\obj\Debug\net8.0\CodePulse.API.sourcelink.json
