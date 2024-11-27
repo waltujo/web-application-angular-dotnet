@@ -1,5 +1,5 @@
 ﻿using CodePulse.API.Models.Domain;
-using CodePulse.API.Models.DTO;
+using CodePulse.API.Models.DTO.Category;
 using CodePulse.API.Repositories.Interface;
 using Microsoft.AspNetCore.Mvc;
 
@@ -92,6 +92,27 @@ namespace CodePulse.API.Controllers
             };
 
             category = await _categoryRepository.UpdateAsync(category);
+
+            if (category is null)
+            {
+                return NotFound();
+            }
+
+            var response = new CategoryDTO
+            {
+                Id = category.Id,
+                Name = category.Name,
+                UrlHandle = category.UrlHandle
+            };
+
+            return Ok(response);
+        }
+
+        [HttpDelete]
+        [Route("{id:guid}")]
+        public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
+        {
+            var category = await _categoryRepository.DeleteAsync(id);
 
             if (category is null)
             {
