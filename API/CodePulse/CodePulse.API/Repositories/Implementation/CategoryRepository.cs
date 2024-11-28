@@ -12,6 +12,7 @@ namespace CodePulse.API.Repositories.Implementation
         {
             this._dbContext = applicationDbContext;
         }
+
         public async Task<Category> CreateAsync(Category category)
         {
             await _dbContext.Categories.AddAsync(category);
