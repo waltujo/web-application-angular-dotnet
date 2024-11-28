@@ -66,7 +66,11 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostController.cs",
               "ToolTip": "C:\\Users\\waltujo\\source\\repos\\Projetos\\API\\CodePulse\\CodePulse.API\\Controllers\\BlogPostController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostController.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwDYAAAARAAAAAAAAAA==",
+=======
               "ViewState": "AgIAABAAAAAAAAAAAAAcwE4AAAAIAAAAAAAAAA==",
+>>>>>>> 7014b99a1fa2ba142d24db8ddfdc20df4c484f1d
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T01:40:04.552Z",
               "EditorCaption": ""
