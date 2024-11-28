@@ -1,4 +1,6 @@
-﻿namespace CodePulse.API.Models.DTO.BlogPost
+﻿using CodePulse.API.Models.DTO.Category;
+
+namespace CodePulse.API.Models.DTO.BlogPost
 {
     public class BlogPostDTO
     {
@@ -11,5 +13,7 @@
         public DateTime PublisehdDate { get; set; }
         public string Author { get; set; }
         public bool IsVisible { get; set; }
+
+        public List<CategoryDTO> Categories { get; set; } = new List<CategoryDTO>();
     }
 }
