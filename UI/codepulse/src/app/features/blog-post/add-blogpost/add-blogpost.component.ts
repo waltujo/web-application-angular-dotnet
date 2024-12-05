@@ -39,7 +39,7 @@ export class AddBlogpostComponent implements OnInit {
     this.blogPostService.cretaeBlogPost(this.model)
     .subscribe({
       next: (response) => {
-        this.router.navigateByUrl('/admin/BlogPost');
+        this.router.navigateByUrl('/admin/blogposts');
       }
     });
   }
